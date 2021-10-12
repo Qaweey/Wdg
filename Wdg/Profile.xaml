@@ -1,0 +1,39 @@
+﻿<Window x:Class="Wdg.Profile" ContentRendered="Window_ContentRendered"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wdg"
+        mc:Ignorable="d"
+        Title="Profile" Background="Black" Height="500" Width="300">
+    
+        <StackPanel Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Profile" Foreground=" white"  HorizontalAlignment="Center" FontSize="20"/>
+            <Separator/>
+        </StackPanel>
+            <StackPanel Margin="20" Orientation="Horizontal" >
+            <Label Foreground="White" Content="First Name:" />
+            <Label  Foreground="White" x:Name="txtdisplayfirstname"/>
+            </StackPanel >
+        <StackPanel Margin="20" Orientation="Horizontal" >
+            <Label Foreground="White" Content="Last Name:" />
+            <Label  Foreground="White" x:Name="txtdisplaylastname"/>
+        </StackPanel >
+        <StackPanel Margin="20" Orientation="Horizontal" >
+            <Label Foreground="White" Content="Email:" />
+            <Label  Foreground="White" x:Name="txtdisplaymail"/>
+        </StackPanel >
+        <StackPanel Margin="20" Orientation="Horizontal" >
+            <Label Foreground="White" Content="Date Of Birth:" />
+            <Label  Foreground="White" x:Name="txtdisplayDOB"/>
+        </StackPanel >
+        <StackPanel Margin="20" Orientation="Horizontal" >
+            <Label Foreground="White" Content="Gender:" />
+            <Label  Foreground="White" x:Name="txtdisplaygender"/>
+        </StackPanel >
+
+
+    </StackPanel>
+    
+</Window>

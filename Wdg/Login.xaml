@@ -1,0 +1,26 @@
+﻿<Window x:Class="Wdg.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wdg"
+        mc:Ignorable="d"
+        Title="Login" Height="500" Width="300" Background="Black">
+    <StackPanel Margin=" 60">
+        <Label Content="Login" HorizontalContentAlignment="Center" FontSize="15" Foreground="White"  FontWeight="DemiBold"/>
+        <Separator></Separator>
+        <Label  Content="Email" Foreground="White"/>
+        <TextBox x:Name="txtloginemail" ></TextBox>
+        <Label  Content="Password" Foreground="White"/>
+        <TextBox x:Name="txtpassword" ></TextBox>
+        <StackPanel Margin="30">
+            <Button Content="Login" Click="Button_Click_1"  HorizontalAlignment="Center"></Button>
+        </StackPanel>
+        <StackPanel  >
+            <TextBlock  Foreground="White" HorizontalAlignment="Center">Are you a new user? click here
+                </TextBlock>
+            <Button Content="click me" Click="Button_Click" Background="Green" Width="23" Height="12"/>
+
+        </StackPanel>
+    </StackPanel>
+</Window>
